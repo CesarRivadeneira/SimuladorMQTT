@@ -2,9 +2,6 @@
 # sim_soia_hivemq.py
 # Simulador de 6 señales para HiveMQ Cloud (o cualquier broker MQTT)
 # Publica: nivel (1–5V), caudal gas (1–5V → m3/min), pulsos A/B, DI sensor inyección, estado A/B y QA.
-# Autor: ChatGPT (GPT-5 Thinking) — listo para correr localmente.
-#
-# Requisitos: pip install paho-mqtt
 #
 # Config por variables de entorno (ejemplos al final del archivo).
 import os, time, math, random, json, ssl
